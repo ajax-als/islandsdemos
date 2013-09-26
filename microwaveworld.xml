@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<site xmlns="http://interactive-answers.webmaster.yandex.ru/schemas/site/0.0.1"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://interactive-answers.webmaster.yandex.ru/schemas/site/0.0.1/
+                          http://interactive-answers.webmaster.yandex.ru/schemas/site-0.0.1.xsd">
+
+
+    <rootUrl>microwaveworld.ru</rootUrl>
+    <title>Микроволновые печи</title>
+    <description>Найти микроволновую печь</description>
+    <resource>
+        <fixed name="http://microwaveworld.ru"/>
+    </resource>
+    <metricaCounterId>1234567</metricaCounterId>
+
+    <filters>
+        <dropDown>
+            <description caption="Бренд">
+                <setParameter name="brand"/>
+            </description>
+            <dropDownValue key="9902" caption="Atlanta"/>
+            <dropDownValue key="15529" caption="BRAND"/>
+            <dropDownValue key="14799" caption="Bomann"/>
+            <dropDownValue key="280" caption="Bork"/>
+            <dropDownValue key="14791" caption="Clatronic"/>
+            <dropDownValue key="5227" caption="DELTA"/>
+            <dropDownValue key="455" caption="Daewoo"/>
+            <dropDownValue key="924" caption="Irit"/>
+            <dropDownValue key="20319" caption="MAGNIT"/>
+            <dropDownValue key="1248" caption="Moulinex"/>
+            <dropDownValue key="1267" caption="Mystery"/>
+            <dropDownValue key="40813" caption="Oursson"/>
+            <dropDownValue key="19159" caption="Zigmund&amp;Shtain"/>
+            <dropDownValue key="1410" caption="Panasonic"/>
+            <dropDownValue key="8710" caption="Redmond"/>
+            <dropDownValue key="1591" caption="Rolsen"/>
+            <dropDownValue key="5648" caption="Saturn "/>
+            <dropDownValue key="1641" caption="Scarlett"/>
+            <dropDownValue key="4997" caption="Supra"/>
+            <dropDownValue key="5052" caption="Ves"/>
+            <dropDownValue key="2021" caption="Vitek"/>
+            <dropDownValue key="2106" caption="Zelmer"/>
+            <dropDownValue key="43767" caption="Рубин"/>
+            <dropDownValue key="5207" caption="Витязь"/>
+        </dropDown>
+
+        <geo useUserRegion="true">
+            <description caption="Регион доставки">
+                <setParameter name="region_id"/>
+            </description>
+            <geoValue key="49" caption="Московская область"/>
+            <geoValue key="77" caption="г. Санкт-Петербург"/>
+            <geoValue key="46" caption="Ленинградская область"/>
+            <geoValue key="65" caption="Свердловская область"/>
+            <geoValue key="53" caption="Новосибирская область"/>
+            <geoValue key="21" caption="Алтайский край"/>
+            <geoValue key="27" caption="Амурская область"/>
+            <geoValue key="28" caption="Архангельская область"/>
+            <geoValue key="29" caption="Астраханская область"/>
+            <geoValue key="30" caption="Белгородская область"/>
+            <geoValue key="31" caption="Брянская область"/>
+            <geoValue key="32" caption="Владимирская область"/>
+            <geoValue key="33" caption="Волгоградская область"/>
+            <geoValue key="34" caption="Вологодская область"/>
+            <geoValue key="35" caption="Воронежская область"/>
+            <geoValue key="78" caption="Еврейская автономная область"/>
+            <geoValue key="74" caption="Забайкальский край"/>
+            <geoValue key="36" caption="Ивановская область"/>
+            <geoValue key="37" caption="Иркутская область"/>
+            <geoValue key="7" caption="Кабардино-Балкарская Республика"/>
+            <geoValue key="38" caption="Калининградская область"/>
+            <geoValue key="39" caption="Калужская область"/>
+            <geoValue key="40" caption="Камчатский край"/>
+            <geoValue key="41" caption="Кемеровская область"/>
+            <geoValue key="42" caption="Кировская область"/>
+            <geoValue key="43" caption="Костромская область"/>
+            <geoValue key="22" caption="Краснодарский край"/>
+            <geoValue key="23" caption="Красноярский край"/>
+            <geoValue key="44" caption="Курганская область"/>
+            <geoValue key="45" caption="Курская область"/>
+            <geoValue key="47" caption="Липецкая область"/>
+            <geoValue key="48" caption="Магаданская область"/>
+            <geoValue key="50" caption="Мурманская область"/>
+            <geoValue key="79" caption="Ненецкий автономный округ"/>
+            <geoValue key="51" caption="Нижегородская область"/>
+            <geoValue key="52" caption="Новгородская область"/>
+            <geoValue key="54" caption="Омская область"/>
+            <geoValue key="55" caption="Оренбургская область"/>
+            <geoValue key="56" caption="Орловская область"/>
+            <geoValue key="57" caption="Пензенская область"/>
+            <geoValue key="58" caption="Пермский край"/>
+            <geoValue key="24" caption="Приморский край"/>
+            <geoValue key="59" caption="Псковская область"/>
+            <geoValue key="1" caption="Республика Адыгея"/>
+            <geoValue key="4" caption="Республика Алтай (Горный Алтай"/>
+            <geoValue key="2" caption="Республика Башкортостан"/>
+            <geoValue key="3" caption="Республика Бурятия"/>
+            <geoValue key="5" caption="Республика Дагестан"/>
+            <geoValue key="6" caption="Республика Ингушетия"/>
+            <geoValue key="8" caption="Республика Калмыкия"/>
+            <geoValue key="9" caption="Республика Карачаево-Черкессия"/>
+            <geoValue key="10" caption="Республика Карелия"/>
+            <geoValue key="11" caption="Республика Коми"/>
+            <geoValue key="12" caption="Республика Марий Эл"/>
+            <geoValue key="13" caption="Республика Мордовия"/>
+            <geoValue key="14" caption="Республика Саха (Якутия"/>
+            <geoValue key="15" caption="Республика Северная Осетия-Алания"/>
+            <geoValue key="16" caption="Республика Татарстан"/>
+            <geoValue key="17" caption="Республика Тыва"/>
+            <geoValue key="19" caption="Республика Хакасия"/>
+            <geoValue key="60" caption="Ростовская область"/>
+            <geoValue key="61" caption="Рязанская область"/>
+            <geoValue key="62" caption="Самарская область"/>
+            <geoValue key="63" caption="Саратовская область"/>
+            <geoValue key="64" caption="Сахалинская область"/>
+            <geoValue key="66" caption="Смоленская область"/>
+            <geoValue key="25" caption="Ставропольский край"/>
+            <geoValue key="67" caption="Тамбовская область"/>
+            <geoValue key="68" caption="Тверская область"/>
+            <geoValue key="69" caption="Томская область"/>
+            <geoValue key="70" caption="Тульская область"/>
+            <geoValue key="71" caption="Тюменская область"/>
+            <geoValue key="18" caption="Удмуртская Республика"/>
+            <geoValue key="72" caption="Ульяновская область"/>
+            <geoValue key="26" caption="Хабаровский край"/>
+            <geoValue key="80" caption="Ханты-Мансийский автономный округ - Югра"/>
+            <geoValue key="73" caption="Челябинская область"/>
+            <geoValue key="83" caption="Чеченская республика"/>
+            <geoValue key="20" caption="Чувашская Республика"/>
+            <geoValue key="81" caption="Чукотский автономный округ"/>
+            <geoValue key="82" caption="Ямало-Ненецкий автономный округ"/>
+            <geoValue key="75" caption="Ярославская область"/>
+
+             <geoValue key="76" caption="г. Москва">
+            	<checkBox>
+    				<description caption="Самовывоз">
+      					<setParameter name="selfpick" />
+    				</description>
+				    <checked key="true"/>
+   					<unchecked key="false" />
+				</checkBox>
+            </geoValue>
+
+        </geo>
+
+    </filters>
+</site>
